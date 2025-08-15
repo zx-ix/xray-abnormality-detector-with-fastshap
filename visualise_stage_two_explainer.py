@@ -116,7 +116,7 @@ fig, ax = plt.subplots(R, 3, figsize=(9, 3*R))
 if R == 1: ax = np.expand_dims(ax, 0)
 
 for i in range(R):
-    # original with groundtruth and predictioon
+    # original with groundtruth and prediction
     if LBL_TXT[true_lbls[i]] == "Positive":
         true_label = "Abnormal"
     elif LBL_TXT[true_lbls[i]] == "Negative":
